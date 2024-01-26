@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Stilu-Regular';
+  src: url(./Stilu-Regular.eot);
+  src: url(./Stilu-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./Stilu-Regular.otf) format('otf'),
+       url(./Stilu-Regular.svg#Stilu-Regular) format('svg'),
+       url(./Stilu-Regular.ttf) format('truetype'),
+       url(./Stilu-Regular.woff) format('woff'),
+       url(./Stilu-Regular.woff2) format('woff2');
+}

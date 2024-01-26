@@ -1,0 +1,499 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>noticias</title>
+
+<style type="text/css">
+	
+@font-face {
+  font-family: 'Stilu';
+  src: url(fuentes/Stilu-Regular.eot);
+  src: url(fuentes/Stilu-Regular.eot?#iefix) format('embedded-opentype'),
+       url(fuentes/Stilu-Regular.otf) format('otf'),
+       url(fuentes/Stilu-Regular.svg#Stilu-Regular) format('svg'),
+       url(fuentes/Stilu-Regular.ttf) format('truetype'),
+       url(fuentes/Stilu-Regular.woff) format('woff'),
+       url(fuentes/Stilu-Regular.woff2) format('woff2');
+
+  font-family: 'Stilu Semibold';
+  src: url("fuentes/"Stilu-SemiBold.eot);
+  src: url(fuentes/Stilu-SemiBold.eot?#iefix) format('embedded-opentype'),
+       url(fuentes/Stilu-SemiBold.otf) format('otf'),
+       url(fuentes/Stilu-SemiBold.svg#Stilu-SemiBold) format('svg'),
+       url(fuentes/Stilu-SemiBold.ttf) format('truetype'),
+       url(fuentes/Stilu-SemiBold.woff) format('woff'),
+       url(fuentes/Stilu-SemiBold.woff2) format('woff2');
+}
+
+
+
+	
+html body {
+    margin: 0 auto;
+    font-family: 'Stilu', sans-serif;
+}
+
+h1 {
+	font-family: 'Stilu Semibold', sans-serif;
+	font-size: 46px;
+	}	
+	
+h2 {
+    font-family: 'Stilu Semibold', sans-serif;
+	font-size: 30px;
+}
+
+p {
+    font-family: 'Stilu', sans-serif;
+	font-size: 21px;
+}
+
+
+	
+
+
+header {
+	background: #FFFFFF;
+	height: 150px;
+	position: relative;
+	margin: 0;
+	line-height: 0px;
+	display: flex;
+	padding: 25px;
+	}
+
+a {
+	text-decoration: none;
+}
+header a > img {
+	float: left;
+	}
+	
+
+	
+header nav ul {
+		font-family: 'Stilu Semibold', sans-serif;
+		width: 85%;
+		height: 20px;
+		float: right;
+		display: flex;
+		padding-top: 17px;
+		margin-left: 150px;
+		margin-top: 115px;
+	}
+
+	
+nav ul a > li {
+	padding-left: 25px;
+	font-size: 21px;
+	float: right;
+	}
+	
+nav ul > a {
+	color:#000000;
+	list-style: none;
+	}
+
+nav ul a > li:hover {
+	color: #098837;
+	}	
+	
+	
+	
+	
+	
+	
+	
+nav ul > li, a {
+	padding-left: 25px;
+	font-size: 21px;
+	display:inline;
+	float: right;
+	}
+	
+nav ul > li, a {
+	list-style: none;
+	color: #098837;
+	margin-bottom: 20px;
+	}
+	
+
+
+
+h1, h2 {
+	color:#000000;
+}
+nav ul a {
+	font-size: 21px;
+	}
+	
+
+	
+
+.inicionoticiasynovedades {
+		height: 90vh;
+		position: absolute;
+		background: url("imagenes/formas/fondonoticiasynovedades.png") center;
+		background-size: cover;
+	}
+	
+	.temporadaotinv {
+		background: #44B86E;
+		height: 100vh;
+		padding-top: 120px;
+		position: relative;
+		margin: 0;
+	}
+	
+	.temporadaotinv h1 {
+		text-align: center;
+		color: #000000;
+		padding-bottom: 50px;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.temporadaotinv p {
+		text-align: center;
+		margin-top: 10px;
+	}
+	
+	.temporadaotinv .cols {
+		width: 75%;
+		height: 80%;
+		text-align: left;
+		margin-left: 140px;
+		padding-left: 100px;
+	}
+
+	.meriendas {
+		width: 35%;
+		height: 90%;
+		text-align: left;
+		margin-left: 55px;
+		margin-top: 20px;
+		float: left;
+	}
+	
+	.meriendas h2 {
+		text-align: center;
+		color: #FFFFFF;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.meriendas div img {
+		position: absolute;
+		float: left;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.meriendas div img:hover {
+		width: 26%;
+		background: url( "imagenes/meriendaspromosombreado.png") center;
+		background-size: cover;
+	}
+	
+	.kilodehelado {
+		width: 35%;
+		height: 90%;
+		text-align: left;
+		margin-left: 55px;
+		margin-top: 20px;
+		float: left;
+	}
+	
+	.kilodehelado h2 {
+		text-align: center;
+		color: #FFFFFF;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.kilodehelado div img {
+		position: absolute;
+		float: left;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.kilodehelado div img:hover {
+		width: 26%;
+		background: url("imagenes/kilodeheladopromosombreado.png") center;
+		background-size: cover;
+	}
+	
+	
+	
+	
+	.staff {
+		height: 120vh;
+		padding-left: 120px;
+		margin: 0 auto;
+		position: relative;
+		background: url("imagenes/formas/fondoblancoyformasverdes.png") center;
+		background-size: cover;
+	}
+	
+	.staff h1 {
+		text-align: left;
+		padding-top: 280px;
+		margin-bottom: 0px;
+		color: #F7C93E;
+	}
+	.staff p {
+		text-align: left;
+		margin-top: 10px;
+		margin-right: 500px;
+	}
+	
+
+	
+	.paletasheladas {
+		position: relative;
+		background: #44B86E;
+		height: 190vh;
+		margin:0 auto;
+	}
+	
+	.paletasheladas h1 {
+		text-align: center;
+		color: #000000;
+		padding-top: 40px;
+		padding-bottom: 50px;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.paletasheladas > div {
+		position: relative;
+		margin-right: 20px;
+	}
+	
+	.mandarina div img {
+		position: relative;
+		margin-top: 10px;
+		padding-right: 15px;
+		margin-left: 250px;
+		float: left;
+		display: inline;
+	}
+	
+	.mandarina div img:hover {
+		width: 30%;
+		background: url("imagenes/Productos/paletamandarinasombreado.png") center;
+		background-size: cover;
+	}
+
+	.durazno div img {
+		position: relative;
+		margin-top: 10px;
+		padding-right: 15px;
+		float: left;
+		display: inline;
+	}
+	
+	.durazno div img:hover {
+		width: 30%;
+		background: url("imagenes/Productos/paletaduraznosombreado.png") center;
+		background-size: cover;
+	}
+	
+	.frutilla div img {
+		position: relative;
+		margin-top: 10px;
+		padding-right: 15px;
+		margin-left: 250px;
+		float: left;
+		display: inline;
+	}
+	
+	.frutilla div img:hover {
+		width: 30%;
+		background: url( "imagenes/Productos/paletafrutillasombreado.png") center;
+		background-size: cover;
+	}
+	
+	.arandanos div img {
+		position: relative;
+		margin-top: 10px;
+		padding-right: 15px;
+		float: left;
+		display: inline;
+	}
+	
+	.arandanos div img:hover {
+		width: 30%;
+		background: url( "imagenes/Productos/paletaarandanossombreado.png") center;
+		background-size: cover;
+	}
+
+	
+	
+	
+
+footer {
+	font-family: 'Stilu', sans-serif;
+	background: #F7C93E;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 2600px;
+	position: relative;
+	text-align: left;
+	font-size: 17px;
+	padding: 20px;
+	}
+
+footer div {
+	width: 21.7%;
+	height: 100%;
+	padding: 8px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	border-right: 5px solid #098837;
+	right: 25px;
+	align-content: center;
+	}
+	
+
+footer .derechosreservados div {
+	height: 113px;
+	} 
+	
+footer .encontranosen div {
+	height: 113px;
+	} 
+	
+
+footer p {
+	display: flex;
+	font-size: 17px;
+	margin: 0 auto;
+	margin-left: 38px;
+	padding-bottom: 2px;
+	text-align: left;
+	float: left;
+	position: relative;
+	}
+	
+footer .derechosreservados p {
+	margin-left: 0px;
+	}
+
+footer img {
+	display: flex;
+	margin: 0 auto;
+	position: absolute;
+	float: left;
+	padding: 4px;
+	}
+
+footer .encontranosen img {
+	margin-top: -5px;
+	}
+	
+	
+</style>
+</head>
+
+<body>
+	<header>
+		<div>
+		<a href="index.html.html" target="_blank" style="width: 150px; height: 150px; float: left"><img src= "imagenes/logosanandres.png" width="110%"></a>
+		</div>
+		<nav>
+			<ul>				
+				<a href="index.html.html"><li>Inicio</li></a>
+				<a href="productos.html.html"><li>Productos</li></a>
+				<a href="eventos.html.html"><li>Eventos</li></a>
+				<li><a href="noticias.html.html">Noticias</a></li>
+				<a href="sobrenosotros.html.html"><li>Sobre nosotros</li></a>
+				<a href="contacto.html.html"><li>Contacto</li></a>
+			</ul>		
+		</nav>
+	</header>
+
+<section class="inicionoticiasynovedades"></section>
+	
+	<section class="temporadaotinv">
+				<h1><b>Temporada otoño/invierno</b></h1>
+		
+		<div class="cols">		
+				<section class="meriendas">
+				<div><h2>Meriendas</h2>
+				<p>Aprovechá esta promoción: Tostado de jamón y queso + jugo exprimido o café.</p></div>
+				<div><img src= "imagenes/meriendaspromosinfondo.png" width="26%"></div>
+				</section>
+			
+				<section class="kilodehelado">
+				<div><h2>Kilo de helado</h2>
+				<p>Este kilo de helado te está esperando, con gustos lisos y super deliciosos.</p></div>
+				<div><img src= "imagenes/kilodeheladopromosinfondo.png" width="26%"></div>
+				</section>
+		</div>
+				
+		<section class="staff">			
+					<h1>¿Querés formar parte de nuestro Staff?</h1>
+					<p style="width: 1100px; height: 90px;  float: left; overflow: hidden">Seleccionamos personal para atención al público. Acercá tu CV a nuestro local (Buenos Aires 423, Río Cuarto) o envíalo por Whatsapp (Link del Whatsapp en nuestra bio). <b>No dudes en etiquetar y compartir este aviso con familiares o amigos que estén buscando trabajo en estos momentos.</b></p>	
+				</section>
+		
+		<div class="paletasheladas">	
+			<h1><b>Nuevas paletas heladas</b></h1>
+				<section class="mandarina">
+				<div><img src= "imagenes/Productos/paletamandarina.png" width="30%"></div>
+				</section>
+		
+				<section class="durazno">
+				<div><img src= "imagenes/Productos/paletadurazno.png" width="30%"></div>
+				</section>
+			
+				<section class="frutilla">
+				<div><img src= "imagenes/Productos/paletafrutilla.png" width="30%"></div>
+				</section>
+			
+				<section class="arandanos">
+				<div><img src= "imagenes/Productos/paletaarandanos.png" width="30%"></div>
+				</section>
+		</div>
+	</section>
+	
+<footer>
+			
+		<section class="derechosreservados">
+		<div><h4>San Andrés © 2023  |  Aviso legal</h4><p>Todos los derechos reservados</p></div>
+		</section>
+		
+		<section class="comunicateconnosotros">
+		<div><h4>Comunicate con nosotros:</h4>
+			<img src= "imagenes/iconos/whatsapp.png" width="1.4%"><p>+54 9 358 422-6319</p>
+			<br>
+			<img src= "imagenes/iconos/gmail.png" width="1.4%"><p>adrianaasosa@gmail.com</p>
+			</div>
+		</section>
+		
+		<section class="seguinosen">
+		<div><h4>Seguinos en:</h4>
+			<img src= "imagenes/iconos/facebook.png" width="1.4%"><p>San Andrés Heladería</p>
+			<br>
+			<img src= "imagenes/iconos/instagram.png" width="1.4%"><p>sanandres.heladeria</p></div>
+		</section>
+		
+		<section class="encontranosen">
+		<div><h4>Encontranos en:</h4>
+			<img src= "imagenes/iconos/ubicacion.png" width="1.4%"><p>Río Cuarto 5800, Córdoba</p>
+			</div>
+		</section>
+		
+	</footer>
+	
+	
+	
+</body>
+</html>
